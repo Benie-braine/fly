@@ -1,0 +1,944 @@
+<<<<<<< HEAD
+body {
+    padding: 0 5px;
+    background-color: rgb(252, 251, 251);
+        font-family: 'Inter', sans-serif; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 75px;
+    width: 75.95px;
+    margin-left: 100px;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar ul li{
+    margin: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+  
+
+.section1{
+    background-image: url("Rectangle\ 1.png");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+} 
+
+.Rectanglenoir{
+    height: max-content;
+    background-color: black;
+    width: 80%;
+    /* height: 20vh; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 20px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.Rectanglenoir h1{
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+}
+.Rectanglenoir p{
+    /* color: white; */
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+}
+.Rectangleblanc{
+    background-color: white;
+    width: 80%;
+    /* height: 40vh; */
+    height: max-content;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 155px;
+    opacity: 0.8;
+    display: block;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    color: rgb(5, 5, 5);
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 11px;
+    font-size: 10px;
+}
+
+.bouton{
+    margin-right: 50px;
+    display: flex;
+    margin: auto;
+    margin-left: 70px;
+}
+.rectangle{
+    height: 20px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 90px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle li{
+    list-style: none;
+}
+.rectangle0{
+    height: 25px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 180px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle1 li{
+    list-style: none;
+}
+.rectangle2{
+    height: 25px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 100px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle2 li{
+    list-style: none;
+}
+.bouton1{
+    display: flex;
+    margin: auto;
+    margin-left: 65px;
+}
+
+
+
+
+.section2{
+    /* width: 100%; */
+    /* height: 80vh; */
+    display: block;
+    align-items: center;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    
+}
+.container{
+    display: flex;
+    height: max-content;
+    margin-left: 139px;
+    width: 80%;
+    /* margin: 90px; */
+    justify-content: space-between;
+}
+.container div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 550px;
+    box-shadow: 0px 6px 10px 0px;
+    border-radius: 6px;
+    margin: 10px;
+    border:none;
+    
+   
+}
+.container img{
+    height: 140px;
+    width: 319px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.container button{
+    height: 45px;
+    background-color: #096735;
+    width: 300px;
+    margin-left: 6px;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section2 p{
+    margin-left: 150px;
+    font-size: 8px;
+    margin-top: 30px;
+    color: grey;
+}
+.section2 .trait{
+    background-color: #096735;
+    height: 1px;
+    width:38%;
+    margin-top: 10px;
+}
+.section2 .ligne{
+    display: flex;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 150px;
+}
+.section2 .mot{
+    width: 12%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #096735;
+}
+.mer{
+    margin-top: 30px;
+    background-image: url("Rectangle\ 10.png");
+    width: 89%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    overflow: hidden;
+    margin-left: 150px;
+}
+.rectanglemer{
+    /* margin-top: 15px; */
+    width: 100%;
+    height: 53.5vh;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    backdrop-filter: #096735;
+    background-color:#096735;
+    opacity: 0.7;
+}
+ .rectanglemer h1{
+    color: white;
+    margin-left: 52px;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.rectanglemer button{
+    
+        height: 30px;
+        margin: 4px;
+        border-radius: 4px;
+        width: 120px;
+        border: white solid 4px;
+        color:white;
+        overflow: hidden;
+        margin-left: 53px;
+        background-color:transparent;
+} 
+.mer1{
+    padding-right: 200px;
+    margin-left: 100px;
+   
+}
+.codeqr{
+    border-radius: 3px;
+    /* height: max-content; */
+    overflow: hidden;
+    display:flex;
+   justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 70px;
+    padding-left: 149px;
+    
+}
+.code{
+    display: flex;
+    box-shadow: 0px 6px 10px 0px;
+    width: 730px;
+    height: 138px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.code img{
+    height: 100px;
+    width: 100px;
+    margin-top: 12px;
+    margin-right: 6px;
+    
+}
+.code span{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.wallet{
+    width: 497px;
+    height: 56px;
+    margin: 5px;
+    box-shadow: 0px 2px 2px 0px;
+    border-radius: 6px;
+    display: flex;
+    
+}
+.wallet div{
+    display: block;
+    padding: 8px 7px;
+}
+.section2{
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+.volsinternational{
+    display: flex;
+    justify-content: center; 
+    margin-top: 30PX;
+    padding-left: 89px;
+    padding-right: 88px;
+    height: 59vh;
+    width:1806px ;
+}
+.destination{
+    width: 827.9px;
+    margin: 0px 10px 0px 0px;
+}
+.destination p{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.destination span{
+    color: #096735;
+    font-size: 17px;
+    font-weight: bold;
+}
+.destination i{
+    font-size: 12px;
+    font-style: normal;
+}
+.destination button{
+    height: 30px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 120px;
+    border: #096735 solid 2px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    overflow: hidden;
+    background-color:transparent;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-top: -15px;
+}
+.volsinternational img{
+    width:47%;
+    height: 440px;
+   
+}
+
+.section3{
+    margin-top: 30px;
+    /* height: 59vh; */
+    display: block;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    /* margin-left: 25px; */
+}
+
+.partenariat{
+    display: flex;
+    margin-left: 140px;
+}
+.sky{
+    margin-top: 5px;
+    width: 89%;
+    height: 50vh;
+  }
+
+.linaf{
+    margin-top: 5px;
+    width: 95%;
+    height: 50vh;
+}
+.section3 img{
+    height: 320px;
+    width:93%;
+    margin-bottom: 20px;
+}
+
+.section3 h1{
+    
+    font-size:50px ;
+    font-weight:bold;
+    text-align: center;
+}
+.footer {
+    background-color: #096735;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+.texte1 {
+    flex: 1;
+    margin: 0 10px; 
+}
+
+.texte1 span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texte1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.texte1 ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(255, 216, 216);
+}
+
+.copyright {
+    flex: 0 1 auto; 
+    width: 50%; 
+    text-align: right; 
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+body {
+    padding: 0 5px;
+    background-color: rgb(252, 251, 251);
+        font-family: 'Inter', sans-serif; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 75px;
+    width: 75.95px;
+    margin-left: 100px;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar ul li{
+    margin: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+  
+
+.section1{
+    background-image: url("Rectangle\ 1.png");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+} 
+
+.Rectanglenoir{
+    height: max-content;
+    background-color: black;
+    width: 80%;
+    /* height: 20vh; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 20px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.Rectanglenoir h1{
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+}
+.Rectanglenoir p{
+    /* color: white; */
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+}
+.Rectangleblanc{
+    background-color: white;
+    width: 80%;
+    /* height: 40vh; */
+    height: max-content;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 155px;
+    opacity: 0.8;
+    display: block;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    color: rgb(5, 5, 5);
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 11px;
+    font-size: 10px;
+}
+
+.bouton{
+    margin-right: 50px;
+    display: flex;
+    margin: auto;
+    margin-left: 70px;
+}
+.rectangle{
+    height: 20px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 90px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle li{
+    list-style: none;
+}
+.rectangle0{
+    height: 25px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 180px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle1 li{
+    list-style: none;
+}
+.rectangle2{
+    height: 25px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 100px;
+    border: #096735 solid 2px;
+    color: #096735;
+}
+.rectangle2 li{
+    list-style: none;
+}
+.bouton1{
+    display: flex;
+    margin: auto;
+    margin-left: 65px;
+}
+
+
+
+
+.section2{
+    /* width: 100%; */
+    /* height: 80vh; */
+    display: block;
+    align-items: center;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    
+}
+.container{
+    display: flex;
+    height: max-content;
+    margin-left: 139px;
+    width: 80%;
+    /* margin: 90px; */
+    justify-content: space-between;
+}
+.container div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 550px;
+    box-shadow: 0px 6px 10px 0px;
+    border-radius: 6px;
+    margin: 10px;
+    border:none;
+    
+   
+}
+.container img{
+    height: 140px;
+    width: 319px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.container button{
+    height: 45px;
+    background-color: #096735;
+    width: 300px;
+    margin-left: 6px;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.section2 p{
+    margin-left: 150px;
+    font-size: 8px;
+    margin-top: 30px;
+    color: grey;
+}
+.section2 .trait{
+    background-color: #096735;
+    height: 1px;
+    width:38%;
+    margin-top: 10px;
+}
+.section2 .ligne{
+    display: flex;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 150px;
+}
+.section2 .mot{
+    width: 12%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #096735;
+}
+.mer{
+    margin-top: 30px;
+    background-image: url("Rectangle\ 10.png");
+    width: 89%;
+    height: 59vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    overflow: hidden;
+    margin-left: 150px;
+}
+.rectanglemer{
+    /* margin-top: 15px; */
+    width: 100%;
+    height: 53.5vh;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    backdrop-filter: #096735;
+    background-color:#096735;
+    opacity: 0.7;
+}
+ .rectanglemer h1{
+    color: white;
+    margin-left: 52px;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.rectanglemer button{
+    
+        height: 30px;
+        margin: 4px;
+        border-radius: 4px;
+        width: 120px;
+        border: white solid 4px;
+        color:white;
+        overflow: hidden;
+        margin-left: 53px;
+        background-color:transparent;
+} 
+.mer1{
+    padding-right: 200px;
+    margin-left: 100px;
+   
+}
+.codeqr{
+    border-radius: 3px;
+    /* height: max-content; */
+    overflow: hidden;
+    display:flex;
+   justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 70px;
+    padding-left: 149px;
+    
+}
+.code{
+    display: flex;
+    box-shadow: 0px 6px 10px 0px;
+    width: 730px;
+    height: 138px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.code img{
+    height: 100px;
+    width: 100px;
+    margin-top: 12px;
+    margin-right: 6px;
+    
+}
+.code span{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.wallet{
+    width: 497px;
+    height: 56px;
+    margin: 5px;
+    box-shadow: 0px 2px 2px 0px;
+    border-radius: 6px;
+    display: flex;
+    
+}
+.wallet div{
+    display: block;
+    padding: 8px 7px;
+}
+.section2{
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+.volsinternational{
+    display: flex;
+    justify-content: center; 
+    margin-top: 30PX;
+    padding-left: 89px;
+    padding-right: 88px;
+    height: 59vh;
+    width:1806px ;
+}
+.destination{
+    width: 827.9px;
+    margin: 0px 10px 0px 0px;
+}
+.destination p{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.destination span{
+    color: #096735;
+    font-size: 17px;
+    font-weight: bold;
+}
+.destination i{
+    font-size: 12px;
+    font-style: normal;
+}
+.destination button{
+    height: 30px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 120px;
+    border: #096735 solid 2px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    overflow: hidden;
+    background-color:transparent;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-top: -15px;
+}
+.volsinternational img{
+    width:47%;
+    height: 440px;
+   
+}
+
+.section3{
+    margin-top: 30px;
+    /* height: 59vh; */
+    display: block;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    /* margin-left: 25px; */
+}
+
+.partenariat{
+    display: flex;
+    margin-left: 140px;
+}
+.sky{
+    margin-top: 5px;
+    width: 89%;
+    height: 50vh;
+  }
+
+.linaf{
+    margin-top: 5px;
+    width: 95%;
+    height: 50vh;
+}
+.section3 img{
+    height: 320px;
+    width:93%;
+    margin-bottom: 20px;
+}
+
+.section3 h1{
+    
+    font-size:50px ;
+    font-weight:bold;
+    text-align: center;
+}
+.footer {
+    background-color: #096735;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+.texte1 {
+    flex: 1;
+    margin: 0 10px; 
+}
+
+.texte1 span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texte1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.texte1 ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(255, 216, 216);
+}
+
+.copyright {
+    flex: 0 1 auto; 
+    width: 50%; 
+    text-align: right; 
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 0070e8ea9b7581d558b7a4946db97751a82f3ec3
+    
